@@ -1,0 +1,19 @@
+Associating rules with html elements
+
+Selectors indicate which element the rule applies to
+
+Declarations indicate how the elements referred to in the selector should be styled\
+
+Properties indicate the aspects of the element you want to change
+
+Values specify the settings for the properties
+
+<link> tell the browser where to find the css file, lives inside head
+  href: filepath
+  type:text/css
+  rel:stylesheet when linking to css file
+<style> value should be text/css
+
+MANY DIFFERENT TYPES OF ITEM SELECTORS LOOK THEM UP
+
+CHECK SITE IN MULTIPLE BROSWSERS AN OSs

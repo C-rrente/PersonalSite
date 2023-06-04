@@ -1,0 +1,47 @@
+html, body 
+{
+  height: 100%;
+  width: 100%;
+  font-family: fantasy;
+  background-color: #28282B;
+  padding: 50px;
+}
+
+body {
+   transform: scale(0.8);
+   transform-origin: 0 0;
+   
+}
+
+.h2
+{
+ color:#98971a 
+}
+
+.h3
+{
+  color:#b16286
+}
+
+.text
+{
+  color:#ebdbb2
+}
+
+.name
+{
+  color:#689d6a
+}
+
+.link
+{
+   color:#a89984;
+   text-decoration: none; 
+   background-color: none;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
