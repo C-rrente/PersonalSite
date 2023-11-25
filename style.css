@@ -50,7 +50,7 @@ a:active { text-decoration: none; }
 /*This is for the carousel*/
 
 .slideshow {
-  max-width: 1000px;
+  max-width: 250px;
   position: relative;
   margin: auto;
 }
