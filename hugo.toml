@@ -1,2 +1,6 @@
-title = 'Site Update In Progress'
+title = 'Logan Corrente'
 theme = 'hello-friend-ng'
+
+[[params.social]]
+  name="github"
+  url = "https://github.com/C-rrente"

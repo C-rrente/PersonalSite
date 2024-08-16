@@ -21,7 +21,7 @@ paginate     = 10
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = true
-
+  
   # Metadata mostly used in document's head
   description = "My new portfolio"
   keywords = "homepage, blog, projects, portfolio"
