@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "corrente.dev"
 title        = "Logan Corrente"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -27,6 +27,8 @@ paginate     = 10
   keywords = "homepage, blog, projects, portfolio"
   images = [""]
 
+  title = "test"
+
 [taxonomies]
     category = "projects"
     tag      = "tags"
@@ -51,7 +53,4 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+

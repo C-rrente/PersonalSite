@@ -1,6 +1,27 @@
 title = 'Logan Corrente'
 theme = 'hello-friend-ng'
+#sectionPagesMenu = "main"
+
+[[params.social]]
+  name="email"
+  url = "mailto:logan6656@gmail.com"
+
 
 [[params.social]]
   name="github"
   url = "https://github.com/C-rrente"
+
+[[params.social]]
+  name="linkedin"
+  url = "https://www.linkedin.com/in/logan-corrente/"
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+  
+  [[menus.main]]
+    name = "About"
+    pageRef = "/content/about/"
+    weight = 2
