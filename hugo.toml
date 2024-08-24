@@ -1,6 +1,6 @@
 title = 'Logan Corrente'
 theme = 'hello-friend-ng'
-#sectionPagesMenu = "main"
+sectionPagesMenu = "main"
 
 [[params.social]]
   name="email"
@@ -21,7 +21,4 @@ theme = 'hello-friend-ng'
     pageRef = "/"
     weight = 1
   
-  [[menus.main]]
-    name = "About"
-    pageRef = "/content/about/"
-    weight = 2
+  

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ "css/projects.css" | relURL }}">
+<main class="projects-page">
+    <h1>{{ .Title }}</h1>
+    <div class="project-grid">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}" class="project-card">
+            {{ if .Params.image }}
+            <div class="card-image" style="background-image: url('{{ .Params.image }}');"></div>
+            {{ end }}
+            <div class="card-content">
+                <h2>{{ .Title }}</h2>
+                <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+                <p class="description">{{ .Params.description }}</p>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</main>
+{{ end }}

@@ -4,14 +4,33 @@
     <title>Logan Corrente</title>
     <link>/</link>
     <description>Recent content on Logan Corrente</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Sep 2023 19:41:55 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiger</title>
+      <link>/projects/tiger/</link>
+      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      
+      <guid>/projects/tiger/</guid>
+      <description>This is a big &amp;lsquo;ol test</description>
+    </item>
+    
+    <item>
+      <title>Tiger</title>
+      <link>/projects/tiger2/</link>
+      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      
+      <guid>/projects/tiger2/</guid>
+      <description>This is a big &amp;lsquo;ol test</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>TEST </description>
+      <description>Welcome! My name is Logan, and I&amp;rsquo;m a tech hobbiest with a degree in Mathematics-Computer Science from the University of California, San Diego. I enjoy tinkering with old and new tech, making my own devices, programming, gaming and exploring. I have done a lot in my young life and I am eager to learn and grow as a developer. Feel free to reach out!</description>
     </item>
     
   </channel>

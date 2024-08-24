@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Logan Corrente</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Logan Corrente</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 01 Sep 2023 19:41:55 -0700</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiger</title>
+      <link>/projects/tiger/</link>
+      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      
+      <guid>/projects/tiger/</guid>
+      <description>This is a big &amp;lsquo;ol test</description>
+    </item>
+    
+    <item>
+      <title>Tiger</title>
+      <link>/projects/tiger2/</link>
+      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      
+      <guid>/projects/tiger2/</guid>
+      <description>This is a big &amp;lsquo;ol test</description>
+    </item>
+    
+  </channel>
+</rss>

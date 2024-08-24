@@ -26,8 +26,7 @@ paginate     = 10
   description = "My new portfolio"
   keywords = "homepage, blog, projects, portfolio"
   images = [""]
-
-  title = "test"
+  
 
 [taxonomies]
     category = "projects"
@@ -53,4 +52,3 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-

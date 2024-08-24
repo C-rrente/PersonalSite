@@ -1,0 +1,91 @@
+:root {
+    --card-bg-color: #3f3f3f;  /* Light gray background */
+    /*--card-border-color: #e0e0e0;*/
+    --card-text-color: #8e8e8e;
+    --card-hover-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.projects-page .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.projects-page .project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: 12px;  /* Increased border-radius for more rounded corners */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;  /* Removes underline from text */
+    color: var(--card-text-color);
+    height: 100%;
+}
+
+.projects-page .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--card-hover-shadow);
+}
+
+.projects-page .card-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-page .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.projects-page .project-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: var(--card-text-color);  /* Ensures consistent text color */
+}
+
+.projects-page .project-card .date {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.projects-page .project-card .description {
+    font-size: 0.9em;
+    flex-grow: 1;
+    color: var(--card-text-color);  /* Ensures consistent text color */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .projects-page .project-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .projects-page .project-card h2 {
+        font-size: 1.1em;
+    }
+
+    .projects-page .project-card .description {
+        font-size: 0.85em;
+    }
+}
+
+/* Adjust card size on very small screens */
+@media (max-width: 350px) {
+    .projects-page .project-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-page .card-image {
+        height: 150px;
+    }
+}
