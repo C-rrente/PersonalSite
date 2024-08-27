@@ -2,23 +2,30 @@ title = 'Logan Corrente'
 theme = 'hello-friend-ng'
 sectionPagesMenu = "main"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [[params.social]]
-  name="email"
+  name = "email"
   url = "mailto:logan6656@gmail.com"
 
 
 [[params.social]]
-  name="github"
+  name = "github"
   url = "https://github.com/C-rrente"
 
 [[params.social]]
-  name="linkedin"
+  name = "linkedin"
   url = "https://www.linkedin.com/in/logan-corrente/"
 
-[menus]
-  [[menus.main]]
-    name = "Home"
-    pageRef = "/"
-    weight = 1
-  
-  
+[[params.social]]
+  name = "dev"
+  url = "https://drive.google.com/file/d/1FvwkSk4GTaffmOKb04gCQq9uWNos3nRg/view?usp=sharing"
+  download = true
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "about/"

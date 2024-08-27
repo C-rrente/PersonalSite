@@ -5,23 +5,41 @@
     <link>/projects/</link>
     <description>Recent content in Projects on Logan Corrente</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 01 Sep 2023 19:41:55 -0700</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tiger</title>
-      <link>/projects/tiger/</link>
-      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      <title>Web Developer Journal</title>
+      <link>/projects/cse110-journal/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>/projects/tiger/</guid>
-      <description>This is a big &amp;lsquo;ol test</description>
+      <guid>/projects/cse110-journal/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Tiger</title>
-      <link>/projects/tiger2/</link>
-      <pubDate>Fri, 01 Sep 2023 19:41:55 -0700</pubDate>
+      <title>Room Scheduling App</title>
+      <link>/projects/room-scheduling-app/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>/projects/tiger2/</guid>
-      <description>This is a big &amp;lsquo;ol test</description>
+      <guid>/projects/room-scheduling-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Checkin System</title>
+      <link>/projects/checkin/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/checkin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NASA L&#39;Space Mission Concept Academy</title>
+      <link>/projects/mission-concept-academy/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/mission-concept-academy/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,6 +1,5 @@
 :root {
-    --card-bg-color: #3f3f3f;  /* Light gray background */
-    /*--card-border-color: #e0e0e0;*/
+    --card-bg-color: #2f2f2f;  /* Light gray background */
     --card-text-color: #8e8e8e;
     --card-hover-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
