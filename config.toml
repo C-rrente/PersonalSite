@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "corrente.dev"
 title        = "Logan Corrente"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
@@ -21,11 +21,12 @@ paginate     = 10
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = true
-
+  
   # Metadata mostly used in document's head
   description = "My new portfolio"
   keywords = "homepage, blog, projects, portfolio"
   images = [""]
+  
 
 [taxonomies]
     category = "projects"
@@ -51,7 +52,3 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"

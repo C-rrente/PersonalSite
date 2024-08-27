@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Check in system developed for the Qualcomm Institute Makerspace" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/projects/checkin/" />
+
+
+    <title>
+        
+            QI Check in System :: Logan Corrente 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.949191c1dcc9c4a887997048b240354e47152016d821198f89448496ba42e491.css" integrity="sha256-lJGRwdzJxKiHmXBIskA1TkcVIBbYIRmPiUSElrpC5JE=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="QI Check in System">
+<meta itemprop="description" content="Check in system developed for the Qualcomm Institute Makerspace"><meta itemprop="datePublished" content="2022-10-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-10-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="828">
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="QI Check in System"/>
+<meta name="twitter:description" content="Check in system developed for the Qualcomm Institute Makerspace"/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2022-10-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__text ">
+                Home</span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/"></a></li><li><a href="/about/"></a></li><li><a href="/about/">About</a></li><li><a href="/projects/">Projects</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+<main class="post">
+    <article>
+        <h1 class="post-title">QI Check in System</h1>
+        <div class="post-content">
+            <p>Link to the <a href="https://github.com/UCSD-Makerspace/Check-In/tree/main">repo</a></p>
+<img src="/yo.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto"> 
+<p>Upon arriving to UC San Diego, I decided to start looking for student jobs to keep myself
+afloat while in school. I ended up getting a job at a new developing makerspace in the Qualcomm
+Institute on campus.</p>
+<p>After a few weeks of 3d printing, laser cutting and learning some woodworking and metalworking, I
+was given the task of continuing a project that my boss had started.</p>
+<p>The project was to create a check in system for students and staff to use that used an RFID reader that
+he made. This device consisted of an ESP-32 connected to an NFC card reader that would send the information
+over serial. He wanted the users to be able to make accounts via a GUI after scanning their card so their
+account would be linked to their ID.</p>
+<p>Knowing very little about software design I embarked on this learning experience in October of 2022.</p>
+<p>Unfortunately, I was incredibly stressed at the time with school and my home life so I was making slow progress
+but still progress.</p>
+<img src="/og-main-page.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto"> 
+<img src="/og-no-account.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<p>Regardless, I taught myself a large amount of Python and learned tkinter from scratch. I eventually
+got scanning to work and it could create an entry in a Google Sheet where our data was going to be stored.
+I also created a working GUI with buttons, titles, images, messages and entry boxes.</p>
+<p>At this point I had also began to implement a way to use the magswipe that were embedded in our ID cards.
+My boss was able to create a Python script that pulled user information from our school&rsquo;s database in a way
+that was secure. I linked this script to a magswipe reader and allowed students to easily fill their information.</p>
+<p>The reason behind the students using the RFID tag in their ID card was for the future implementation of Fabman devices.</p>
+<p><img src="/fabman.jpg" alt=""></p>
+<p>These devices act as remote switches for heavy machinery, and the company hosts an account system where you can give people
+access to certain devices. I started work on implementing the Fabman API into the system allowing the backend to automatically
+create the new user a Fabman account and have their card work with Fabman devices, and if a user had an account before this implementation
+it would make them a Fabman account as well.</p>
+<p>The idea moving forward was to have checkboxes for each user on the Google Sheet so any staff could give user&rsquo;s access given they met the
+criteria. So me and another newly hired programmer developed a script that would give a certain user access based on their selected checkboxes.</p>
+<p>Over this time I had been making consistent updates, bug fixes and improvements. I had my own trello board where my team members could bring issues
+to my attention and I could create a plan on how to fix it.</p>
+<p>After a while, and starting in the summer of 2023 a designer, who was also a student with me, decided to redesign the GUI into something more pleasing.
+And since traffic was low in the space, I could spend time organizing code and refactoring a lot of things that I messed up while learning Python.</p>
+<p><a href="https://sauljimenez.com/qualcomm-makerspace-check-in-overcomplicated">Sual Jimenez</a>
+Led the design of the GUI and we met often with other staff and came up with a design that was more pleasing and more effective.
+I&rsquo;ve included a more in depth page Saul made going over his design process for the GUI.</p>
+<img src="/new-main.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<img src="/new-account.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<p>These are just a few of the 10 pages that were made to accommodate the new design.</p>
+<p>After he had finished the pages, I began to look for a way to take his designs from Figma. We ended up
+finding a <a href="https://github.com/Axorax/tkforge">tool</a> that converted his designs into tkinter code.</p>
+<p>This made it much easier for me to implement these designs and make them functional. This task, however, was
+still a major challenge.</p>
+<p>When creating this a lot of the code used for the system was in just one file, as I didn&rsquo;t know much about
+Python&rsquo;s file separation and the proper way to make projects. So my biggest task was essentially
+rewriting the system to fit neatly into separated files that were organized and easy to modify.</p>
+<p>This took me a month or two of just spending hours refactoring the code and testing it to ensure I didn&rsquo;t break anything
+at the end of the day.</p>
+<img src="/og-github.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<p>This is what the file system looked like before I organized everything. Where basically the entire system ran
+through the single checkin.py file.</p>
+<img src="/new-github-main.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<img src="/new-github-src.png" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto; padding-top: 5px"> 
+<p>And this is what it looked like after I had finished reorganizing and implementing each page.</p>
+<p>Overall I learned so much from this project, my Python skills have improved tremendously, I can make GUIs
+somewhat comfortably and I gained social skills from working in a team that I&rsquo;d never had before.</p>
+<p>This system is still running in the DIB and since my leaving, has been implemented in two more facilities
+on UCSD&rsquo;s campus.</p>
+
+        </div>
+    </article>
+</main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.205d491810c28f95aa953fae884e1c27abe13fdf93ec63b882d0036b248d4a6282eb2d134e4e7225c6ad6e86db87b08488a361ca4a7383d01fcff43f3d57b9c3.js" integrity="sha512-IF1JGBDCj5WqlT&#43;uiE4cJ6vhP9&#43;T7GO4gtADaySNSmKC6y0TTk5yJcatbobbh7CEiKNhykpzg9Afz/Q/PVe5ww=="></script>
+
+
+
+
+    </body>
+</html>

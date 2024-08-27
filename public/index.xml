@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logan Corrente</title>
+    <link>/</link>
+    <description>Recent content on Logan Corrente</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Developer Journal</title>
+      <link>/projects/cse110-journal/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/cse110-journal/</guid>
+      <description>In spring of 2024 I decided to sign up for Professor Powell&amp;rsquo;s CSE 110, Software Engineering course at UCSD. With a hectic start and not enough chairs in one of the biggest lecture halls on campus, we started the course.
+We were put into teams, and my team became Team Tungsten. This included myself and 10 other students.
+The task we had been given was to create developer journal app on top of exams, long lectures, and some PAs.</description>
+    </item>
+    
+    <item>
+      <title>Room Scheduling App</title>
+      <link>/projects/room-scheduling-app/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/room-scheduling-app/</guid>
+      <description>While working for UCSD IT services, I met someone who needed help rewriting an app that he made for room scheduling. I was quite interested and spent most of my time at ITS working on this project.
+This is a frame of one of the actual hosted carousel pages. He had many pages like this that were created by a local designer and hosted through Carousel. These pages displayed any information and were hosted on a separate server to ensure the devices just needed to display the page.</description>
+    </item>
+    
+    <item>
+      <title>QI Check in System</title>
+      <link>/projects/checkin/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/checkin/</guid>
+      <description>Link to the repo
+Upon arriving to UC San Diego, I decided to start looking for student jobs to keep myself afloat while in school. I ended up getting a job at a new developing makerspace in the Qualcomm Institute on campus.
+After a few weeks of 3d printing, laser cutting and learning some woodworking and metalworking, I was given the task of continuing a project that my boss had started.</description>
+    </item>
+    
+    <item>
+      <title>NASA L&#39;Space Mission Concept Academy</title>
+      <link>/projects/mission-concept-academy/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/mission-concept-academy/</guid>
+      <description>Link to our Preliminary Design Review
+As a kid I absolutely loved space, technology and science&amp;ndash;particularly space exploration. This led to a great curiosity and a new dream to work for a space company.
+Before transferring to University I was looking for any and every opportunity to get ahead, and one of my computer science classmates gave a presentation on a mission concept academy she did with NASA L&amp;rsquo;Space and that night I went home and applied to the program.</description>
+    </item>
+    
+  </channel>
+</rss>
