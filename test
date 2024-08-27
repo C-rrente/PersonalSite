@@ -1,0 +1,26 @@
+config.toml:4:theme        = "hello-friend-ng"
+config.toml:47:      logoText = "hello friend ng"
+hugo.toml:2:theme = 'hello-friend-ng'
+.gitmodules:4:[submodule "themes/hello-friend-ng"]
+.gitmodules:5:	path = themes/hello-friend-ng
+.gitmodules:6:	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+public/main.css.map:6:		"themes/hello-friend-ng/assets/scss/main.scss",
+public/main.css.map:7:		"themes/hello-friend-ng/assets/scss/_normalize.scss",
+public/main.css.map:8:		"themes/hello-friend-ng/assets/scss/_prism.scss",
+public/main.css.map:9:		"themes/hello-friend-ng/assets/scss/_flag-icons.scss",
+public/main.css.map:10:		"themes/hello-friend-ng/assets/scss/_variables.scss",
+public/main.css.map:11:		"themes/hello-friend-ng/assets/scss/_mixins.scss",
+public/main.css.map:12:		"themes/hello-friend-ng/assets/scss/_fonts.scss",
+public/main.css.map:13:		"themes/hello-friend-ng/assets/scss/_buttons.scss",
+public/main.css.map:14:		"themes/hello-friend-ng/assets/scss/_header.scss",
+public/main.css.map:15:		"themes/hello-friend-ng/assets/scss/_logo.scss",
+public/main.css.map:16:		"themes/hello-friend-ng/assets/scss/_menu.scss",
+public/main.css.map:17:		"themes/hello-friend-ng/assets/scss/_main.scss",
+public/main.css.map:18:		"themes/hello-friend-ng/assets/scss/_list.scss",
+public/main.css.map:19:		"themes/hello-friend-ng/assets/scss/_single.scss",
+public/main.css.map:20:		"themes/hello-friend-ng/assets/scss/_footer.scss",
+public/main.css.map:21:		"themes/hello-friend-ng/assets/scss/_sharing-buttons.scss",
+public/main.css.map:22:		"themes/hello-friend-ng/assets/scss/_tables.scss",
+public/main.css.map:23:		"themes/hello-friend-ng/assets/scss/_404.scss"
+public/projects/tiger2/index.html:80:                hello</span>
+public/projects/tiger/index.html:80:                hello</span>
