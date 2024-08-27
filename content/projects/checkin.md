@@ -4,6 +4,7 @@ date = 2022-10-01
 description = "Check in system developed for the Qualcomm Institute Makerspace"
 image = "./checkin-assets/checkin-main.jpg"
 +++
+Link to the [repo](https://github.com/UCSD-Makerspace/Check-In/tree/main)
 
 <img src="/yo.jpg" alt="Image of Check in" style="display: block; margin-left:auto; margin-right:auto"> 
 
