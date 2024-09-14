@@ -1,7 +1,7 @@
 +++
 title = "Web Developer Journal"
 date = 2024-04-01
-description = "Web-app developer journal created with 11 other members for UCSD's CSE 110 - Software Engineering"
+description = "Web-app developer journal created using Node.js, Electron.js, JavaScript, HTML, and CSS in a team of 11" 
 image = "./cse110-journal-assets/cse110-journal-main.jpg"
 +++
 

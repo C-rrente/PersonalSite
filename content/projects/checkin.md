@@ -1,7 +1,7 @@
 +++
 title = "QI Check in System"
 date = 2022-10-01
-description = "Check in system developed for the Qualcomm Institute Makerspace"
+description = "Check in system developed using Python, C++, Javascript with a Google Sheets backend handling hundreds of interactions per day"
 image = "./checkin-assets/checkin-main.jpg"
 +++
 Link to the [repo](https://github.com/UCSD-Makerspace/Check-In/tree/main)
